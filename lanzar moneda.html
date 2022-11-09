@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cara o Sello</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+
+        <div class="container__menu">
+            <div class="logo">
+                <img src="images/logo-magtimus-v2.3-1.png" alt="">
+            </div>
+            <div class="menu">
+                <i class="fas fa-bars" id="btn_menu"></i>
+                <div id="back_menu"></div>
+                <nav id="nav">
+                    <img src="images/logo-magtimus-v2.3-1.png" alt="">
+                    <ul>
+                        <li><a href="./lanzar moneda-instrucciones.html" id="selected">Guía de instrucciones</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+  <div class="container">
+    <div class="coin" id="coin">
+        <div class="heads">
+            <img src="./images/moneda.png">
+        </div>
+        <div class="tails">
+            <img src="./images/moneda.png">
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="flip-button">
+            Lanzar Moneda
+        </button>
+        <a class="nav-link" href="./iniciar juego.html"><button type="button" class="btn btn-success" id="boton">Iniciar juego</button></a>
+    </div>
+</div>
+  <script src="./js/effect.js"></script>
+</body>
+</html>
